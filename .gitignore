@@ -1,0 +1,17 @@
+cat << 'EOF' > .gitignore
+# Игнорируем сторонние папки и JDK
+Goaga/
+jdk*/
+jre*/
+Lab2/
+Lab9/
+latest/
+Test/
+untitled/
+
+# Игнорируем весь мусор сборщиков и IDE во всех папках
+**/.idea/
+**/target/
+**/.mvn/
+**/*.iml
+EOF
